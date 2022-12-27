@@ -45,7 +45,7 @@
     
   </div> 
   <h1 class="iff">
-    {{programing.author.length >= 4 ?  'Every language cool' : 'Every language unical in own'}}
+    {{programing.author.length <= 4 ?  'Every language cool' : 'Every language unical in own'}}
   </h1>
 </template>
 
