@@ -5,9 +5,15 @@
      return{
       programing:{
         language:'c++',
+	language:'Python',
+	language:'JavaScript',
+	language:'C#',
         author:[
           'name author languege',
-          'idea creating languege c++'
+          'idea creating languege c++',
+	  'idea creating languege Python',
+	  'idea creating languege JavaScript',
+	  'idea creating languege C#',
         ]
       }
      }
@@ -39,7 +45,7 @@
     
   </div> 
   <h1 class="iff">
-    {{programing.author.length >= 3 ?  'ogogogogogogo' : 'Every language unical in own'}}
+    {{programing.author.length >= 4 ?  'Every language cool' : 'Every language unical in own'}}
   </h1>
 </template>
 
